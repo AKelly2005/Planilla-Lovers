@@ -7,7 +7,12 @@ namespace PLANILLA_LOVERS
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void iniciobtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nuevousuariobtn_Click(object sender, EventArgs e)
         {
 
         }

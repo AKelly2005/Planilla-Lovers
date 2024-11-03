@@ -29,39 +29,40 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NuevoUsuario));
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
-            button1 = new Button();
+            NewContratxt = new TextBox();
+            NewUsertxt = new TextBox();
+            Agregarbtn = new Button();
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
-            textBox3 = new TextBox();
+            RepNewContratxt = new TextBox();
             label4 = new Label();
             SuspendLayout();
             // 
-            // textBox2
+            // NewContratxt
             // 
-            textBox2.Location = new Point(351, 245);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(260, 27);
-            textBox2.TabIndex = 12;
+            NewContratxt.Location = new Point(351, 245);
+            NewContratxt.Name = "NewContratxt";
+            NewContratxt.Size = new Size(260, 27);
+            NewContratxt.TabIndex = 12;
             // 
-            // textBox1
+            // NewUsertxt
             // 
-            textBox1.Location = new Point(351, 185);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(260, 27);
-            textBox1.TabIndex = 11;
+            NewUsertxt.Location = new Point(351, 185);
+            NewUsertxt.Name = "NewUsertxt";
+            NewUsertxt.Size = new Size(260, 27);
+            NewUsertxt.TabIndex = 11;
             // 
-            // button1
+            // Agregarbtn
             // 
-            button1.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(310, 396);
-            button1.Name = "button1";
-            button1.Size = new Size(188, 29);
-            button1.TabIndex = 10;
-            button1.Text = "AGREGAR";
-            button1.UseVisualStyleBackColor = true;
+            Agregarbtn.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            Agregarbtn.Location = new Point(310, 396);
+            Agregarbtn.Name = "Agregarbtn";
+            Agregarbtn.Size = new Size(188, 29);
+            Agregarbtn.TabIndex = 10;
+            Agregarbtn.Text = "AGREGAR";
+            Agregarbtn.UseVisualStyleBackColor = true;
+            Agregarbtn.Click += Agregarbtn_Click;
             // 
             // label3
             // 
@@ -93,13 +94,13 @@
             label1.TabIndex = 7;
             label1.Text = "NUEVO USUARIO";
             // 
-            // textBox3
+            // RepNewContratxt
             // 
-            textBox3.Location = new Point(351, 309);
-            textBox3.Multiline = true;
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(260, 27);
-            textBox3.TabIndex = 14;
+            RepNewContratxt.Location = new Point(351, 309);
+            RepNewContratxt.Multiline = true;
+            RepNewContratxt.Name = "RepNewContratxt";
+            RepNewContratxt.Size = new Size(260, 27);
+            RepNewContratxt.TabIndex = 14;
             // 
             // label4
             // 
@@ -118,11 +119,11 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Lavender;
             ClientSize = new Size(800, 450);
-            Controls.Add(textBox3);
+            Controls.Add(RepNewContratxt);
             Controls.Add(label4);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(button1);
+            Controls.Add(NewContratxt);
+            Controls.Add(NewUsertxt);
+            Controls.Add(Agregarbtn);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -135,13 +136,13 @@
 
         #endregion
 
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private Button button1;
+        private TextBox NewContratxt;
+        private TextBox NewUsertxt;
+        private Button Agregarbtn;
         private Label label3;
         private Label label2;
         private Label label1;
-        private TextBox textBox3;
+        private TextBox RepNewContratxt;
         private Label label4;
     }
 }

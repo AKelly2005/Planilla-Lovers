@@ -16,5 +16,10 @@ namespace PLANILLA_LOVERS
         {
             InitializeComponent();
         }
+
+        private void Agregarbtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

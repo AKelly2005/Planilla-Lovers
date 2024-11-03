@@ -32,10 +32,10 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            button1 = new Button();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            button2 = new Button();
+            iniciobtn = new Button();
+            usuariotxt = new TextBox();
+            contratxt = new TextBox();
+            nuevousuariobtn = new Button();
             SuspendLayout();
             // 
             // label1
@@ -68,40 +68,41 @@
             label3.TabIndex = 2;
             label3.Text = "CONTRASEÑA";
             // 
-            // button1
+            // iniciobtn
             // 
-            button1.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(174, 308);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 3;
-            button1.Text = "INICIO";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += this.button1_Click;
+            iniciobtn.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            iniciobtn.Location = new Point(174, 308);
+            iniciobtn.Name = "iniciobtn";
+            iniciobtn.Size = new Size(94, 29);
+            iniciobtn.TabIndex = 3;
+            iniciobtn.Text = "INICIO";
+            iniciobtn.UseVisualStyleBackColor = true;
+            iniciobtn.Click += iniciobtn_Click;
             // 
-            // textBox1
+            // usuariotxt
             // 
-            textBox1.Location = new Point(340, 143);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(260, 27);
-            textBox1.TabIndex = 5;
+            usuariotxt.Location = new Point(340, 143);
+            usuariotxt.Name = "usuariotxt";
+            usuariotxt.Size = new Size(260, 27);
+            usuariotxt.TabIndex = 5;
             // 
-            // textBox2
+            // contratxt
             // 
-            textBox2.Location = new Point(340, 203);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(260, 27);
-            textBox2.TabIndex = 6;
+            contratxt.Location = new Point(340, 203);
+            contratxt.Name = "contratxt";
+            contratxt.Size = new Size(260, 27);
+            contratxt.TabIndex = 6;
             // 
-            // button2
+            // nuevousuariobtn
             // 
-            button2.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.Location = new Point(412, 308);
-            button2.Name = "button2";
-            button2.Size = new Size(188, 29);
-            button2.TabIndex = 4;
-            button2.Text = "NUEVO USUARIO";
-            button2.UseVisualStyleBackColor = true;
+            nuevousuariobtn.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            nuevousuariobtn.Location = new Point(412, 308);
+            nuevousuariobtn.Name = "nuevousuariobtn";
+            nuevousuariobtn.Size = new Size(188, 29);
+            nuevousuariobtn.TabIndex = 4;
+            nuevousuariobtn.Text = "NUEVO USUARIO";
+            nuevousuariobtn.UseVisualStyleBackColor = true;
+            nuevousuariobtn.Click += nuevousuariobtn_Click;
             // 
             // InicioSesion
             // 
@@ -109,10 +110,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLightLight;
             ClientSize = new Size(800, 450);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(contratxt);
+            Controls.Add(usuariotxt);
+            Controls.Add(nuevousuariobtn);
+            Controls.Add(iniciobtn);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -128,9 +129,9 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private Button button1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Button button2;
+        private Button iniciobtn;
+        private TextBox usuariotxt;
+        private TextBox contratxt;
+        private Button nuevousuariobtn;
     }
 }
