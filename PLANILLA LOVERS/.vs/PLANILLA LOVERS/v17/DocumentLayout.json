@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\aidan\\source\\repos\\Planilla-Lovers\\PLANILLA LOVERS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{558E3270-93DC-4049-B721-6993DCC36100}|PLANILLA LOVERS\\PLANILLA LOVERS.csproj|c:\\users\\aidan\\source\\repos\\planilla-lovers\\planilla lovers\\planilla lovers\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{558E3270-93DC-4049-B721-6993DCC36100}|PLANILLA LOVERS\\PLANILLA LOVERS.csproj|solutionrelative:planilla lovers\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{558E3270-93DC-4049-B721-6993DCC36100}|PLANILLA LOVERS\\PLANILLA LOVERS.csproj|c:\\users\\aidan\\source\\repos\\planilla-lovers\\planilla lovers\\planilla lovers\\iniciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{558E3270-93DC-4049-B721-6993DCC36100}|PLANILLA LOVERS\\PLANILLA LOVERS.csproj|solutionrelative:planilla lovers\\iniciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{558E3270-93DC-4049-B721-6993DCC36100}|PLANILLA LOVERS\\PLANILLA LOVERS.csproj|c:\\users\\aidan\\source\\repos\\planilla-lovers\\planilla lovers\\planilla lovers\\iniciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{558E3270-93DC-4049-B721-6993DCC36100}|PLANILLA LOVERS\\PLANILLA LOVERS.csproj|solutionrelative:planilla lovers\\iniciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,19 +42,36 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InicioSesion.cs",
+              "DocumentMoniker": "C:\\Users\\aidan\\source\\repos\\Planilla-Lovers\\PLANILLA LOVERS\\PLANILLA LOVERS\\InicioSesion.cs",
+              "RelativeDocumentMoniker": "PLANILLA LOVERS\\InicioSesion.cs",
+              "ToolTip": "C:\\Users\\aidan\\source\\repos\\Planilla-Lovers\\PLANILLA LOVERS\\PLANILLA LOVERS\\InicioSesion.cs",
+              "RelativeToolTip": "PLANILLA LOVERS\\InicioSesion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T23:37:52.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aidan\\source\\repos\\Planilla-Lovers\\PLANILLA LOVERS\\PLANILLA LOVERS\\Form1.cs",
-              "RelativeDocumentMoniker": "PLANILLA LOVERS\\Form1.cs",
-              "ToolTip": "C:\\Users\\aidan\\source\\repos\\Planilla-Lovers\\PLANILLA LOVERS\\PLANILLA LOVERS\\Form1.cs [Design]",
-              "RelativeToolTip": "PLANILLA LOVERS\\Form1.cs [Design]",
+              "Title": "InicioSesion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\aidan\\source\\repos\\Planilla-Lovers\\PLANILLA LOVERS\\PLANILLA LOVERS\\InicioSesion.cs",
+              "RelativeDocumentMoniker": "PLANILLA LOVERS\\InicioSesion.cs",
+              "ToolTip": "C:\\Users\\aidan\\source\\repos\\Planilla-Lovers\\PLANILLA LOVERS\\PLANILLA LOVERS\\InicioSesion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PLANILLA LOVERS\\InicioSesion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T23:28:30.679Z",
-              "EditorCaption": " [Design]"
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
