@@ -33,9 +33,9 @@
             label2 = new Label();
             label3 = new Label();
             button1 = new Button();
-            button2 = new Button();
             textBox1 = new TextBox();
             textBox2 = new TextBox();
+            button2 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -77,17 +77,7 @@
             button1.TabIndex = 3;
             button1.Text = "INICIO";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
-            // button2
-            // 
-            button2.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.Location = new Point(412, 308);
-            button2.Name = "button2";
-            button2.Size = new Size(188, 29);
-            button2.TabIndex = 4;
-            button2.Text = "NUEVO USUARIO";
-            button2.UseVisualStyleBackColor = true;
+            button1.Click += this.button1_Click;
             // 
             // textBox1
             // 
@@ -102,6 +92,16 @@
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(260, 27);
             textBox2.TabIndex = 6;
+            // 
+            // button2
+            // 
+            button2.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button2.Location = new Point(412, 308);
+            button2.Name = "button2";
+            button2.Size = new Size(188, 29);
+            button2.TabIndex = 4;
+            button2.Text = "NUEVO USUARIO";
+            button2.UseVisualStyleBackColor = true;
             // 
             // InicioSesion
             // 
@@ -129,8 +129,8 @@
         private Label label2;
         private Label label3;
         private Button button1;
-        private Button button2;
         private TextBox textBox1;
         private TextBox textBox2;
+        private Button button2;
     }
 }
